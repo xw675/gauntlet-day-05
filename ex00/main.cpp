@@ -9,4 +9,6 @@ int main() {
         auto e = EntityFactory::make(kind);
         std::cout << "spawned " << e->describe() << '\n';
     }
+
+    return 0;
 }
