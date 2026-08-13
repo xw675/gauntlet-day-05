@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Entity.hpp"
+#include <memory>
 
 class EntityFactory {
 public:
